@@ -5,6 +5,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import App from "./App";
 import Home from "./pages/Home";
 import Task from "./pages/Tasks";
+import Category from "./pages/Categories";
+import Calendar from "./pages/Calendar";
 import Notfound from "./pages/NotFound";
 
 const router = createBrowserRouter([
