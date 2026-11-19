@@ -24,6 +24,14 @@ const router = createBrowserRouter([
           element: <Task />
         },
         {
+          path: "category",
+          element: <Category />
+        },
+        {
+          path: "calendar",
+          element: <Calendar />
+        },
+        {
           path: "not-found",
           element: <Notfound />
         }
