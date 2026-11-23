@@ -24,4 +24,24 @@ const takeTask = ( { addTask } ) => {
         setPriority("");
         setCompleted("");
     }
+
+    const takename = (event) => {
+
+        setName(event.target.value);
+    };
+
+    const takeDescription = (event) => {
+
+        setDescription(event.target.value);
+    };
+
+    const takePriority = (event) => {
+
+        setPriority(event.target.value);
+    };
+
+    const trackStatus = (event) => {
+
+        setCompleted(event.target.value)
+    };
 }
